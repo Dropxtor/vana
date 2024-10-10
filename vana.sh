@@ -34,6 +34,9 @@ poetry install
 3. Installer Vana CLI
 pip install vana
 
+# Créer un portefeuille
+vanacli wallet create --wallet.name default --wallet.hotkey default
+
 # Exporter les clés privées
 # Suis les prompts et enregistre de manière sécurisée les clés privées affichées
 vanacli wallet export_private_key
